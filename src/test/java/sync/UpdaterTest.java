@@ -1,6 +1,8 @@
 package sync;
 
 import org.junit.Test;
+import sync.object.Author;
+import sync.object.Updater;
 
 /**
  * Created by LuoLiBing on 15/6/13.

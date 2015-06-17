@@ -1,6 +1,7 @@
 package sync;
 
 import org.junit.Test;
+import sync.volatil.VolatileTest;
 
 /**
  * Created by LuoLiBing on 15/6/13.

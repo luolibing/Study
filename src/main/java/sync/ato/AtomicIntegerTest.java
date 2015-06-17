@@ -1,4 +1,4 @@
-package sync;
+package sync.ato;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

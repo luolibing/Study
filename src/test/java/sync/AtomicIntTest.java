@@ -1,6 +1,7 @@
 package sync;
 
 import org.junit.Test;
+import sync.ato.AtomicIntegerTest;
 
 /**
  * Created by LuoLiBing on 15/6/13.

@@ -1,4 +1,4 @@
-package sync;
+package sync.volatil;
 
 /**
  * Created by LuoLiBing on 15/6/13.

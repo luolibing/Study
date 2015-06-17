@@ -1,4 +1,4 @@
-package sync;
+package sync.object;
 
 /**
  * Created by LuoLiBing on 15/6/13.
@@ -17,7 +17,7 @@ public class Updater {
     }
 
 
-    static class UpdateBuilder implements ObjectBuilder<Updater> {
+    public static class UpdateBuilder implements ObjectBuilder<Updater> {
 
         private Author author;
 
@@ -38,5 +38,3 @@ public class Updater {
         }
     }
 }
-
-class Author {}
