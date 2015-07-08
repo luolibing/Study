@@ -23,12 +23,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="activites" />
+        <module name="echarts" />
         <module name="jgit" />
+        <module name="springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="activites" target="1.5" />
+      <module name="echarts" target="1.5" />
       <module name="jgit" target="1.5" />
+      <module name="springboot" target="1.7" />
       <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
   </component>

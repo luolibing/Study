@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{color:#555;}
+/*table*/
+.systemContent{width:1020px;background:#fff;margin:50px auto;}
+.tableContent{width:1014px;border:1px solid #dedede;}
+.tableContent tr{height:45px;line-height:45px;border-bottom:1px solid #ececec;cursor:pointer}
+.tableContent tr.sTitle,.tableContent tr.sTitle:hover{background:#eee;border-bottom:none;font-size:14px;color:#555;}
+.tableContent tr td{text-align:center;}
+.tableContent tr:hover{background:#2a9ccc;color:#fff;}
+.tableContent tr.noBorder{border-bottom:none;cursor:default;}
+
+/*page*/
+.page{text-align:center;margin-top:20px;font-family:Arial;font-size:16px;}
+.page a{width:28px;height:28px;background:#f4f4f4;border:1px solid #dadedb;display:inline-block;margin-right:5px;line-height:28px;color:#999;border-radius:3px;}
+.page a:hover{background:#fff;border:1px solid #2a9ccc;}
+.page a.current{background:#2a9ccc;color:#f9f9f9;border:1px solid #2a9ccc;}
+.page .first{margin-right:10px;}
+.page .last{margin:0 0 0 5px;}
+
+/*graphic*/
+.systemGraphic{padding-top:40px;}
+.pieGraphic,.lineGraphic{width:498px;height:413px;border:1px solid #dedede;float:left;}
+.pieGraphic{margin-right:20px;}
+.barGraphic{margin-top:40px;}
+.clear{clear:both;}
+
+/*button、input*/
+.systemButton{font-size:14px;margin-top:130px;}
+.button80{width:80px;height:40px;line-height:40px;background:#2a9ccc;color:#fff;border-radius:3px;margin-right:70px;}
+.systemButton button:hover{background:#52b8e3;}
+.button160{width:160px;height:40px;line-height:40px;background:#2a9ccc;color:#fff;border-radius:3px;margin-right:70px;}
+.sysInput{width:265px;height:38px;line-height:38px;background:#fff;border:1px solid #ccc;border-radius:3px;padding-left:15px;font-size:14px;color:#ccc;}
