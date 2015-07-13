@@ -1,0 +1,30 @@
+
+server:
+  port: 8090
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.204:3306/crm?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  jpa:
+    show-sql: true
+    open-in-view: true
+
+eureka:
+  instance:
+    hostname: ${CF_INSTANCE_IP:localhost}
+    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port:8090}}}
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8888}/eureka/
