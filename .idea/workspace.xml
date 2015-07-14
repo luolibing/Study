@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8b70b0b-af2b-4466-8a09-7e045f4eae4b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,8 +118,8 @@
       <file leaf-file-name="application-crm.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5102041">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.20408164">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -861,12 +860,12 @@
       <workItem from="1436491614573" duration="1502000" />
       <workItem from="1436776953425" duration="2578000" />
       <workItem from="1436837225716" duration="44000" />
-      <workItem from="1436841344351" duration="29000" />
+      <workItem from="1436841344351" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34199000" />
+    <option name="totallyTimeSpent" value="34996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="973" extended-state="6" />
@@ -1315,8 +1314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5102041">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
