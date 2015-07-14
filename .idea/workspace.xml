@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b70b0b-af2b-4466-8a09-7e045f4eae4b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
     </list>
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,27 +100,17 @@
         <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="77" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-crm.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20408164">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.35714287">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -860,15 +851,15 @@
       <workItem from="1436491614573" duration="1502000" />
       <workItem from="1436776953425" duration="2578000" />
       <workItem from="1436837225716" duration="44000" />
-      <workItem from="1436841344351" duration="826000" />
+      <workItem from="1436841344351" duration="1524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34996000" />
+    <option name="totallyTimeSpent" value="35694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="973" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="973" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1286,22 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="77" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/RemoteConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1312,10 +1287,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20408164">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
