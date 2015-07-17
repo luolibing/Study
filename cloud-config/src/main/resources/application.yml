@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.204:3306/crm?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    validation-query: select 1
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+
+  jpa:
+    show-sql: false
+    open-in-view: true
+    database: MYSQL

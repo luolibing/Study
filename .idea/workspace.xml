@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8b70b0b-af2b-4466-8a09-7e045f4eae4b" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo1.groovy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo2.groovy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_3.xml" />
@@ -20,6 +21,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shiro/shiro.iml" afterPath="$PROJECT_DIR$/shiro/shiro.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" afterPath="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
+>>>>>>> develop
     </list>
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +34,11 @@
     <ignored path="$PROJECT_DIR$/springboot/target/" />
     <ignored path="$PROJECT_DIR$/echarts/target/" />
     <ignored path="$PROJECT_DIR$/shiro/target/" />
+<<<<<<< HEAD
     <ignored path="$PROJECT_DIR$/groovy/target/" />
+=======
+    <ignored path="$PROJECT_DIR$/cloud-config/target/" />
+>>>>>>> develop
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,16 +56,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groovy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+=======
+      <file leaf-file-name="2.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/resources/jgitres/2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+>>>>>>> develop
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Demo1.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo1.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,25 +83,71 @@
               <folding>
                 <element signature="e#32#68#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="RepositoryHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/helper/RepositoryHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+>>>>>>> develop
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Demo2.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo2.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+=======
+      <file leaf-file-name="RemoteRepositoryUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/remote/RemoteRepositoryUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+>>>>>>> develop
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Sample1.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/groovy/src/main/groovy/cn/boxfish/groovy/lambdas/Sample1.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.535316">
               <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+=======
+      <file leaf-file-name="RemoteRepositoryUtilsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/remote/RemoteRepositoryUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JschConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/JschConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/RemoteConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+>>>>>>> develop
               <folding>
                 <element signature="e#35#102#0" expanded="true" />
               </folding>
@@ -91,6 +155,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_17/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,15 +165,41 @@
                 <element signature="e#227619#227620#0" expanded="true" />
                 <element signature="e#227663#227664#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35714287">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding />
+>>>>>>> develop
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="groovy.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groovy/groovy.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+=======
+      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/file/FileUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+>>>>>>> develop
               <folding />
             </state>
           </provider>
@@ -155,6 +246,7 @@
         <option value="$PROJECT_DIR$/echarts/src/main/webapp/templates/chart1.html" />
         <option value="$PROJECT_DIR$/echarts/src/main/webapp/style/style.css" />
         <option value="$PROJECT_DIR$/echarts/src/main/webapp/templates/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/sync/lock/version2/BlogNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/sync/locklatch/ProcessThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/sync/DeadLockTest.java" />
@@ -165,6 +257,26 @@
         <option value="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/Demo2.groovy" />
         <option value="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo2.groovy" />
         <option value="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxfish/groovy/lambdas/Sample1.groovy" />
+=======
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/file/FileUtils.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/helper/RepositoryHelper.java" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/version1/CommandTest.java" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/version1/FileUtilsTest.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/resources/jgitres/1.txt" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/FileUtilsTest.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/helper/RepositoryHelper.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/resources/jgitres/2.txt" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/test/FileUtilsTest.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/file/FileUtils.java" />
+        <option value="$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/remote/RemoteRepositoryUtilsTest.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/remote/RemoteRepositoryUtils.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/JschConfig.java" />
+        <option value="$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/RemoteConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-config/src/main/resources/application-crm.yml" />
+>>>>>>> develop
       </list>
     </option>
   </component>
@@ -208,10 +320,16 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="973" />
+>>>>>>> develop
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -237,7 +355,11 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> develop
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,7 +374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
+              <option name="myItemId" value="Study" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,13 +402,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+=======
+              <option name="myItemId" value="cloud-config" />
+>>>>>>> develop
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="groovy" />
+=======
+              <option name="myItemId" value="cloud-config" />
+>>>>>>> develop
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+=======
+>>>>>>> develop
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -298,7 +453,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="groovy" />
+=======
+              <option name="myItemId" value="cloud-config" />
+>>>>>>> develop
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -309,34 +468,16 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cn" />
+=======
+              <option name="myItemId" value="resources" />
+>>>>>>> develop
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,7 +491,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="groovy" />
+=======
+              <option name="myItemId" value="cloud-config" />
+>>>>>>> develop
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,6 +506,7 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="groovy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -377,6 +523,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+=======
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+>>>>>>> develop
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,6 +548,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-config/src/main/resources" />
+      <recent name="$PROJECT_DIR$/jgit/src/main/textfile" />
       <recent name="C:\Users\TIM\Documents\study\echarts\src\main\webapp\templates" />
       <recent name="C:\Users\TIM\Documents\study\echarts\src\main\webapp" />
     </key>
@@ -404,6 +558,7 @@
       <recent name="C:\Users\TIM\Documents\study\echarts\src\main\webapp" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.Sample1.testChar2">
     <configuration default="false" name="Sample1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -418,6 +573,22 @@
       <option name="PACKAGE_NAME" value="cn.boxfish.groovy.lambdas" />
       <option name="MAIN_CLASS_NAME" value="cn.boxfish.groovy.lambdas.Sample1" />
       <option name="METHOD_NAME" value="test1" />
+=======
+  <component name="RunManager" selected="JUnit.RemoteRepositoryUtilsTest.commitTest">
+    <configuration default="false" name="CommandTest.addCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.boxfish.jgit.test.version1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jgit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.boxfish.jgit.test.version1" />
+      <option name="MAIN_CLASS_NAME" value="cn.boxfish.jgit.test.version1.CommandTest" />
+      <option name="METHOD_NAME" value="addCommandTest" />
+>>>>>>> develop
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -431,6 +602,7 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Sample1.testGString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -444,6 +616,21 @@
       <option name="PACKAGE_NAME" value="cn.boxfish.groovy.lambdas" />
       <option name="MAIN_CLASS_NAME" value="cn.boxfish.groovy.lambdas.Sample1" />
       <option name="METHOD_NAME" value="testGString" />
+=======
+    <configuration default="false" name="FileUtilsTest.addFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.boxfish.jgit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jgit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.boxfish.jgit.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.boxfish.jgit.test.FileUtilsTest" />
+      <option name="METHOD_NAME" value="addFileTest" />
+>>>>>>> develop
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -457,6 +644,7 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Sample1.testGString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -470,6 +658,21 @@
       <option name="PACKAGE_NAME" value="cn.boxfish.groovy.lambdas" />
       <option name="MAIN_CLASS_NAME" value="cn.boxfish.groovy.lambdas.Sample1" />
       <option name="METHOD_NAME" value="testGString2" />
+=======
+    <configuration default="false" name="FileUtilsTest.addFileTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.boxfish.jgit.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jgit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.boxfish.jgit.test.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.boxfish.jgit.test.test.FileUtilsTest" />
+      <option name="METHOD_NAME" value="addFileTest" />
+>>>>>>> develop
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -483,6 +686,7 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Sample1.tsetChar1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -496,6 +700,21 @@
       <option name="PACKAGE_NAME" value="cn.boxfish.groovy.lambdas" />
       <option name="MAIN_CLASS_NAME" value="cn.boxfish.groovy.lambdas.Sample1" />
       <option name="METHOD_NAME" value="tsetChar1" />
+=======
+    <configuration default="false" name="RemoteRepositoryUtilsTest.cloneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.boxfish.jgit.remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jgit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.boxfish.jgit.remote" />
+      <option name="MAIN_CLASS_NAME" value="cn.boxfish.jgit.remote.RemoteRepositoryUtilsTest" />
+      <option name="METHOD_NAME" value="cloneTest" />
+>>>>>>> develop
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -509,6 +728,7 @@
       <patterns />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Sample1.testChar2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -522,6 +742,21 @@
       <option name="PACKAGE_NAME" value="cn.boxfish.groovy.lambdas" />
       <option name="MAIN_CLASS_NAME" value="cn.boxfish.groovy.lambdas.Sample1" />
       <option name="METHOD_NAME" value="testChar2" />
+=======
+    <configuration default="false" name="RemoteRepositoryUtilsTest.commitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.boxfish.jgit.remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jgit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.boxfish.jgit.remote" />
+      <option name="MAIN_CLASS_NAME" value="cn.boxfish.jgit.remote.RemoteRepositoryUtilsTest" />
+      <option name="METHOD_NAME" value="commitTest" />
+>>>>>>> develop
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -806,6 +1041,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="Sample1.testGString3" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -847,6 +1083,22 @@
         <item index="2" class="java.lang.String" itemvalue="JUnit.Sample1.testGString2" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.Sample1.testGString" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.Sample1.test1" />
+=======
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CommandTest.addCommandTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FileUtilsTest.addFileTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FileUtilsTest.addFileTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RemoteRepositoryUtilsTest.cloneTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RemoteRepositoryUtilsTest.commitTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RemoteRepositoryUtilsTest.commitTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RemoteRepositoryUtilsTest.cloneTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FileUtilsTest.addFileTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FileUtilsTest.addFileTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CommandTest.addCommandTest" />
+>>>>>>> develop
       </list>
     </recent_temporary>
   </component>
@@ -868,6 +1120,7 @@
       <workItem from="1435329821800" duration="3466000" />
       <workItem from="1435413140774" duration="8145000" />
       <workItem from="1435462489136" duration="12222000" />
+<<<<<<< HEAD
       <workItem from="1435480928612" duration="10076000" />
       <workItem from="1435587457453" duration="1356000" />
       <workItem from="1435670031655" duration="216000" />
@@ -878,10 +1131,21 @@
       <workItem from="1437055568324" duration="1826000" />
       <workItem from="1437057997157" duration="1352000" />
       <workItem from="1437141508905" duration="6438000" />
+=======
+      <workItem from="1435480928612" duration="4758000" />
+      <workItem from="1436327346277" duration="7256000" />
+      <workItem from="1436431885944" duration="2996000" />
+      <workItem from="1436435852214" duration="2079000" />
+      <workItem from="1436491614573" duration="1502000" />
+      <workItem from="1436776953425" duration="2578000" />
+      <workItem from="1436837225716" duration="44000" />
+      <workItem from="1436841344351" duration="1524000" />
+>>>>>>> develop
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="69745000" />
   </component>
   <component name="ToolWindowManager">
@@ -891,8 +1155,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="35694000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="973" extended-state="7" />
+    <editor active="true" />
+    <layout>
+>>>>>>> develop
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50986844" sideWeight="0.22327965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23572475" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,9 +1182,15 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13250366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30079454" sideWeight="0.37007454" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> develop
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -914,11 +1200,24 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.49707174" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34984025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30079454" sideWeight="0.62992543" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.49707174" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39160046" sideWeight="0.7827476" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+>>>>>>> develop
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -942,6 +1241,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/src/main/java/sync/locklatch/LocklatchExecution.java</url>
           <line>21</line>
           <properties />
@@ -955,14 +1255,28 @@
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="5" />
+=======
+          <url>file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test1/CommandTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+>>>>>>> develop
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="new File(FileUtils.class.getClassLoader().getResource(path).getFile())" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/echarts/src/main/webapp/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1026,6 +1340,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> develop
     <entry file="file://$PROJECT_DIR$/src/test/java/sync/AtomicIntTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17617449">
@@ -1075,6 +1391,27 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/locklatch/LocklatchExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76047903">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#407#422#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sync/concurrent/ExampleMicroBlogNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1140" column="24" selection-start-line="1140" selection-start-column="13" selection-end-line="1140" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> develop
     <entry file="file://$PROJECT_DIR$/springboot/springboot.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2625216">
@@ -1091,8 +1428,20 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseType.class">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-9.12">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.38922155">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
@@ -1175,15 +1524,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/src/main/webapp/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.45918366">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts/src/main/webapp/echarts-2.2.4/build/source/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3853" column="18" selection-start-line="3853" selection-start-column="8" selection-end-line="3853" selection-end-column="18" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1291,24 +1641,169 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/echarts/src/main/webapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="452" column="6" selection-start-line="452" selection-start-column="6" selection-end-line="452" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/resources/jgitres/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.0.1.201506240215-r/org.eclipse.jgit-4.0.1.201506240215-r-sources.jar!/org/eclipse/jgit/lib/BaseRepositoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33267716">
+          <caret line="177" column="13" selection-start-line="177" selection-start-column="13" selection-end-line="177" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24844721">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33267716">
+          <caret line="357" column="11" selection-start-line="357" selection-start-column="11" selection-end-line="357" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.0.1.201506240215-r/org.eclipse.jgit-4.0.1.201506240215-r-sources.jar!/org/eclipse/jgit/api/PushCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.494898">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/4.0.1.201506240215-r/org.eclipse.jgit-4.0.1.201506240215-r-sources.jar!/org/eclipse/jgit/api/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="374" column="0" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/test/FileUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/test/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/resources/jgitres/2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/helper/RepositoryHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/remote/RemoteRepositoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/test/java/cn/boxfish/jgit/remote/RemoteRepositoryUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/JschConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/file/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+>>>>>>> develop
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo1.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
           <folding>
             <element signature="e#32#68#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/jgit/src/main/java/cn/boxfish/jgit/test/ssh/RemoteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> develop
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/groovy/src/main/groovy/cn/boxish/groovy/demo1/Demo2.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+>>>>>>> develop
           <folding />
         </state>
       </provider>
@@ -1399,7 +1894,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot</last-edited>
+          <last-edited>cloud-config</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
