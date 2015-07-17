@@ -1,5 +1,6 @@
 package sync.locklatch;
 
+import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**
@@ -24,7 +25,8 @@ public class ProcessThread extends Thread {
         System.out.println(ident + "执行完毕！");
         countDownLatch.countDown();
         try {
-            Thread.sleep(500);
+            int threadSleep =  new Random().nextInt()*1000;
+            Thread.sleep(threadSleep);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

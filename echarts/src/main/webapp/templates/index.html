@@ -356,6 +356,11 @@
 
             var xData = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
             var yData = [50, 120, 140, 10, 100, 20, 50, 20, 40, 100, 100, 20];
+            var childYData = [];
+            var i = 0;
+            yData.forEach(function(e){
+                childYData[i++] = e/2;
+            })
             // 使用
             require(
                     [
@@ -423,7 +428,7 @@
                                     "name": "销量",
                                     "type": "bar",
                                     barWidth: 50,
-                                    hoverable:false,
+                                    stack:'aa',
                                     itemStyle: {
                                         normal: {color: '#2a9ccc'},
                                         emphasis : {
@@ -432,7 +437,22 @@
                                             })()
                                         }
                                     },
-                                    "data": yData
+                                    "data": childYData
+                                },
+                                {
+                                    "name": "销量",
+                                    "type": "bar",
+                                    barWidth: 50,
+                                    stack:'aa',
+                                    itemStyle: {
+                                        normal: {color: '#52b8e3'},
+                                        emphasis : {
+                                            color: (function (){
+                                                return "rgba(0,0,0,0)";
+                                            })()
+                                        }
+                                    },
+                                    "data": childYData
                                 }
                             ]
                         };

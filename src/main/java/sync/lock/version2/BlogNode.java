@@ -13,6 +13,8 @@ public class BlogNode {
 
     public final String ident;
 
+    private Integer code = 2;
+
 
     public BlogNode(String _ident) {
         ident = _ident;

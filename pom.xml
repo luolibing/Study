@@ -10,6 +10,7 @@
     <module>springboot</module>
     <module>echarts</module>
     <module>shiro</module>
+    <module>groovy</module>
   </modules>
   <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>
