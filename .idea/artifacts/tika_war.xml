@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tika:war">
+    <output-path>$PROJECT_DIR$/tika/target</output-path>
+    <root id="archive" name="tika-1.0.war">
+      <element id="artifact" artifact-name="tika:war exploded" />
+    </root>
+  </artifact>
+</component>
