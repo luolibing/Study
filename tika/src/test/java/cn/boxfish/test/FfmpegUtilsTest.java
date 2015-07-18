@@ -10,6 +10,7 @@ import org.xml.sax.SAXException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -34,8 +35,8 @@ public class FfmpegUtilsTest {
     @Test
     public void transferFileToTargetType() throws TikaException, IOException, SAXException {
         String classPath = this.getClass().getClassLoader().getResource("").getPath();
-        FfmpegUtils.transferFileToTargetType(classPath + "原始人家族猎早餐记.m4v", "mov");
-        assert Files.exists(Paths.get(classPath + "原始人家族猎早餐记.mov"));
+        FfmpegUtils.transferFileToTargetType("/Users/boxfish/Downloads/马达加斯加动物园的一天-quicktime.mov", "m4v");
+        //assert Files.exists(Paths.get(classPath + "原始人家族猎早餐记.mov"));
     }
 
     @Test
@@ -49,6 +50,14 @@ public class FfmpegUtilsTest {
             metaMap.put(tikaKey, metaMap.get(tikaKey));
         }
         System.out.println(metaMap);
+    }
+
+    @Test
+    public void scanVideoFiles() throws TikaException, IOException, SAXException {
+        String basePath = "/share/资源/视频";
+        List<String> strings = FfmpegUtils.scanEnableVideo(Paths.get(basePath));
+        for(String str:strings)
+            System.out.println(str);
     }
 
 }

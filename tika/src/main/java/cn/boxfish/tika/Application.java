@@ -79,8 +79,13 @@ public class Application {
     public @ResponseBody Map<String, Object> transferFileToTargetType(String srcPath, String type) {
         Map<String, Object> result = Maps.newHashMap();
         try {
-            FfmpegUtils.transferFileToTargetType(srcPath, type);
+            Metadata metadata = FfmpegUtils.transferFileToTargetType(srcPath, type);
             result.put("success", "Y");
+            Map<String, String> metaMap = Maps.newHashMap();
+            for (String tikaKey : metadata.names()) {
+                metaMap.put(tikaKey, metadata.get(tikaKey));
+            }
+            result.put("metadata", metaMap);
         } catch (IOException|TikaException|SAXException e) {
             result.put("success", "N");
             result.put("message", e.getMessage());
