@@ -38,6 +38,7 @@ public class Application {
             }
             result.put("success", "Y");
             result.put("metadata", metaMap);
+            result.put("type", FfmpegUtils.analysisType(fileMetadata));
         } catch (IOException|TikaException|SAXException e) {
             result.put("success", "N");
             result.put("message", e.getMessage());
@@ -65,8 +66,13 @@ public class Application {
     public @ResponseBody Map<String, Object> transferFileToTargetPath(String srcPath, String targetPath) {
         Map<String, Object> result = Maps.newHashMap();
         try {
-            FfmpegUtils.transferFileToTargetPath(srcPath, targetPath);
+            Metadata metadata = FfmpegUtils.transferFileToTargetPath(srcPath, targetPath);
             result.put("success", "Y");
+            Map<String, String> metaMap = Maps.newHashMap();
+            for (String tikaKey : metadata.names()) {
+                metaMap.put(tikaKey, metadata.get(tikaKey));
+            }
+            result.put("metadata", metaMap);
         } catch (IOException|TikaException|SAXException e) {
             result.put("success", "N");
             result.put("message", e.getMessage());

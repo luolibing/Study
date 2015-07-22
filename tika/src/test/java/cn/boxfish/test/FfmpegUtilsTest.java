@@ -35,14 +35,14 @@ public class FfmpegUtilsTest {
     @Test
     public void transferFileToTargetType() throws TikaException, IOException, SAXException {
         String classPath = this.getClass().getClassLoader().getResource("").getPath();
-        FfmpegUtils.transferFileToTargetType("/Users/boxfish/Downloads/马达加斯加动物园的一天-quicktime.mov", "m4v");
-        //assert Files.exists(Paths.get(classPath + "原始人家族猎早餐记.mov"));
+        FfmpegUtils.transferFileToTargetType(classPath + "5虎克显微镜invent.m4v", "mp4");
+        assert Files.exists(Paths.get(classPath + "5虎克显微镜invent.mp4"));
     }
 
     @Test
     public void getFileMetadata() throws TikaException, IOException, SAXException {
         String classPath = this.getClass().getClassLoader().getResource("").getPath();
-        Metadata fileMetadata = FfmpegUtils.getFileMetadata("/Users/boxfish/Downloads/马达加斯加动物园的一天-quicktime.mov");
+        Metadata fileMetadata = FfmpegUtils.getFileMetadata(classPath + "5虎克显微镜invent.m4v");
 
         Map<String, String> metaMap = Maps.newHashMap();
         for (String tikaKey : fileMetadata.names())
@@ -58,6 +58,12 @@ public class FfmpegUtilsTest {
         List<String> strings = FfmpegUtils.scanEnableVideo(Paths.get(basePath));
         for(String str:strings)
             System.out.println(str);
+    }
+
+    @Test
+    public void batchTransferFiles() throws TikaException, IOException, SAXException {
+        String basePath = "/share/资源/视频";
+        FfmpegUtils.batchParse(basePath, "/share/资源/视频-bak/", "mp4");
     }
 
 }

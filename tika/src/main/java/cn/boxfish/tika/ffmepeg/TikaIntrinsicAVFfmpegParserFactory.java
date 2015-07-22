@@ -30,11 +30,11 @@ public class TikaIntrinsicAVFfmpegParserFactory
      * @param
      * @return the new Parser
      */
-    public static FfmpegExternalParser createDefaultInstance(String runtimeFfmpegExecutable)
-    {
+    public static FfmpegExternalParser createDefaultInstance(String... command) {
+
         FfmpegExternalParser parser = new FfmpegExternalParser();
 
-        String[] command = new String[] { runtimeFfmpegExecutable + " " + FFMPEG_OPTIONS };
+        //String[] command = new String[] { runtimeFfmpegExecutable + " " + FFMPEG_OPTIONS };
 
         //String[] command = new String[] { runtimeFfmpegExecutable };
 
@@ -75,7 +75,12 @@ public class TikaIntrinsicAVFfmpegParserFactory
                     Pattern.compile(STREAM_PREFIX_FORMAT + i + "\\((\\w+)\\)"), 
                     PBCore.ESSENCE_TRACK_LANGUAGE(i).getName());
         }
-        parser.setCommand(command);
+
+        String[] cmd = new String[command.length+2];
+        System.arraycopy(command, 0, cmd, 0, command.length);
+        cmd[cmd.length-2] = "-i";
+        cmd[cmd.length-1] = "${INPUT}";
+        parser.setCommand(cmd);
         parser.setMetadataExtractionPatterns(extractionPatterns);
         
         return parser;
