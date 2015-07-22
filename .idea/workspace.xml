@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8b70b0b-af2b-4466-8a09-7e045f4eae4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/cn/boxfish/multipart/datasource/ConfigTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/cn/boxfish/multipart/datasource/DBUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/java/cn/boxfish/multipart/datasource/Rule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tika/src/test/java/cn/boxfish/test/RuntimeExecTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tika/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/groovy/src/main/resources/luolibing.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/resources/rule.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot/src/main/resources/config/rule.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_0_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_0_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_8_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_2_3_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot/src/main/java/cn/boxfish/multipart/datasource/RepositoryConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springboot/target/classes/cn/boxfish/multipart/datasource/RepositoryConfig.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/target/classes/Application.class" afterPath="$PROJECT_DIR$/springboot/target/classes/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/Application.class" afterPath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/utils/FfmpegUtils.class" afterPath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/utils/FfmpegUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/target/test-classes/cn/boxfish/test/FfmpegUtilsTest.class" afterPath="$PROJECT_DIR$/tika/target/test-classes/cn/boxfish/test/FfmpegUtilsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1$_readFile1_closure1.class" afterPath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1$_readFile1_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1$_readFile2_closure2.class" afterPath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1$_readFile2_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1.class" afterPath="$PROJECT_DIR$/groovy/target/classes/cn/boxfish/groovy/io/FileDemo1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/ffmepeg/TikaIntrinsicAVFfmpegParserFactory.class" afterPath="$PROJECT_DIR$/tika/target/classes/cn/boxfish/tika/ffmepeg/TikaIntrinsicAVFfmpegParserFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/src/main/java/Application.java" afterPath="$PROJECT_DIR$/springboot/src/main/java/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/Application.java" afterPath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/utils/FfmpegUtils.java" afterPath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/utils/FfmpegUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/src/test/java/cn/boxfish/test/FfmpegUtilsTest.java" afterPath="$PROJECT_DIR$/tika/src/test/java/cn/boxfish/test/FfmpegUtilsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxfish/groovy/io/FileDemo1.groovy" afterPath="$PROJECT_DIR$/groovy/src/main/groovy/cn/boxfish/groovy/io/FileDemo1.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/ffmepeg/TikaIntrinsicAVFfmpegParserFactory.java" afterPath="$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/ffmepeg/TikaIntrinsicAVFfmpegParserFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/springboot/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/target/classes/application.properties" afterPath="$PROJECT_DIR$/springboot/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/pom.xml" afterPath="$PROJECT_DIR$/springboot/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/springboot.iml" afterPath="$PROJECT_DIR$/springboot/springboot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springboot_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a8b70b0b-af2b-4466-8a09-7e045f4eae4b" name="Default" comment="" />
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/activiti/target/" />
@@ -103,8 +49,8 @@
       <file leaf-file-name="FfmpegUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/utils/FfmpegUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.2530863">
-              <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -963,16 +909,16 @@
       <workItem from="1437186674543" duration="19367000" />
       <workItem from="1437355959852" duration="5519000" />
       <workItem from="1437363692453" duration="23967000" />
-      <workItem from="1437530872877" duration="2534000" />
+      <workItem from="1437530872877" duration="3110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121170000" />
+    <option name="totallyTimeSpent" value="121746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="973" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="973" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -983,7 +929,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41657206" sideWeight="0.83226836" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41657206" sideWeight="0.83226836" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41657206" sideWeight="0.16773163" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1396,6 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="579" column="9" selection-start-line="579" selection-start-column="9" selection-end-line="579" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,8 +1485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tika/src/main/java/cn/boxfish/tika/utils/FfmpegUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2530863">
-          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="123" column="55" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
           <folding />
         </state>
       </provider>
