@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 
 /**
@@ -40,6 +41,12 @@ public class FileUtilsTest {
         Git git = FileUtils.addFile(repPath, cn.boxfish.jgit.test.utils.FileUtils.getClassPathFile("jgitres/2.txt"));
         FileUtils.commit(git, "测试提交，2.txt");
         //FileUtils.deleteFile(new File(repPath,"2.txt"));
+    }
+
+    @Test
+    public void createTempDir() throws IOException {
+        String targetPath = Paths.get(Files.createTempDirectory("rms_").toString(), "aaa" + "." + "jpg").toString();
+        System.out.println(targetPath);
     }
 
 }

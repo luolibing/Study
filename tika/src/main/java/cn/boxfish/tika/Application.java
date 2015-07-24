@@ -68,6 +68,7 @@ public class Application {
         try {
             Metadata metadata = FfmpegUtils.transferFileToTargetPath(srcPath, targetPath);
             result.put("success", "Y");
+            result.put("path", targetPath);
             Map<String, String> metaMap = Maps.newHashMap();
             for (String tikaKey : metadata.names()) {
                 metaMap.put(tikaKey, metadata.get(tikaKey));
@@ -85,8 +86,10 @@ public class Application {
     public @ResponseBody Map<String, Object> transferFileToTargetType(String srcPath, String type) {
         Map<String, Object> result = Maps.newHashMap();
         try {
-            Metadata metadata = FfmpegUtils.transferFileToTargetType(srcPath, type);
+            String targetPath = srcPath.substring(0, srcPath.lastIndexOf(".") + 1) + type;
+            Metadata metadata = FfmpegUtils.transferFileToTargetPath(srcPath, targetPath);
             result.put("success", "Y");
+            result.put("path", targetPath);
             Map<String, String> metaMap = Maps.newHashMap();
             for (String tikaKey : metadata.names()) {
                 metaMap.put(tikaKey, metadata.get(tikaKey));
