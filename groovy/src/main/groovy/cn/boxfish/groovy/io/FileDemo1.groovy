@@ -1,15 +1,16 @@
 package cn.boxfish.groovy.io
 
+import groovy.io.FileType
 import org.junit.Before
 import org.junit.Test
 
+import java.nio.file.FileVisitResult
 import java.nio.file.Files
-import java.nio.file.Path
 
 /**
  * Created by LuoLiBing on 15/7/18.
  */
-class FileDemo1 {
+class FileDemo1 implements Serializable {
 
     private filePath;
     private basePath;
@@ -133,4 +134,74 @@ class FileDemo1 {
         println file.toRealPath().toString()
         println file.fileName.toFile().getPath()
     }
+
+    @Test
+    void listFileRecurse2() {
+        new File(basePath).eachFileRecurse(FileType.FILES) { file ->
+            println file.name
+        }
+    }
+
+    @Test
+    void traverseFile() {
+        new File(basePath).traverse { file ->
+            if(file.directory && file.name == 'bin'){
+                FileVisitResult.TERMINATE
+            } else {
+                println file.name
+                FileVisitResult.CONTINUE
+            }
+        }
+    }
+
+    @Test
+    void serialize1() {
+        int i = 1
+        boolean b = true
+        String message = '我是罗立兵'
+        Date now = new Date()
+
+        new File(filePath).withDataOutputStream { out ->
+            out.writeBoolean(b)
+            out.writeInt(i)
+            out.writeUTF(message)
+        }
+
+        new File(filePath).withDataInputStream { input ->
+            assert input.readBoolean() == b
+            assert input.readInt() == i
+            assert input.readUTF() == message
+        }
+    }
+
+    @Test
+    void serialize2() {
+        def p = new FileDemo1(name: 'luolibing', age:27)
+        new File(filePath).withObjectOutputStream { out ->
+            out.writeObject(p)
+        }
+
+        new File(filePath).withObjectInputStream{ input ->
+            FileDemo1 p1 = input.readObject()
+            assert p1.name == p.name
+            assert p1.age == p.age
+        }
+    }
+
+    @Test
+    void shellCmd() {
+        def process =  "cmd /c dir".execute()
+        println "process is ${process.text}"
+    }
+
+    @Test
+    void shellCmdList() {
+        def process = "cmd /c dir c:".execute()
+        process.in.eachLine { line ->
+            println line
+        }
+    }
+
+    String name
+    int age
 }
