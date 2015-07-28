@@ -14,6 +14,7 @@
     <module>cloud-config</module>
     <module>tika</module>
     <module>jgit</module>
+    <module>vfs</module>
   </modules>
   <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>

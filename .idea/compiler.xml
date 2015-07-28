@@ -30,6 +30,7 @@
         <module name="shiro" />
         <module name="springboot" />
         <module name="tika" />
+        <module name="vfs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
@@ -42,6 +43,7 @@
       <module name="springboot" target="1.7" />
       <module name="Test" target="1.5" />
       <module name="tika" target="1.7" />
+      <module name="vfs" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
