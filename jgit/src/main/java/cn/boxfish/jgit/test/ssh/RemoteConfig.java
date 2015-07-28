@@ -11,6 +11,7 @@ import org.eclipse.jgit.transport.URIish;
 public class RemoteConfig {
 
     public void config(String remote) {
+        /*
         String trackingBranch = "refs/remotes/" + remote + "/master";
         RefUpdate trackingBranchRefUpdate = db.updateRef(trackingBranch);
         trackingBranchRefUpdate.setNewObjectId(commit1.getId());
@@ -28,7 +29,7 @@ public class RemoteConfig {
 
         RefSpec spec = new RefSpec(branch + ":" + branch);
         Iterable resultIterable = git.push().setRemote(remote)
-                .setRefSpecs(spec).call();
+                .setRefSpecs(spec).call();*/
     }
 
 }

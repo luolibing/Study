@@ -12,6 +12,8 @@
     <module>shiro</module>
     <module>groovy</module>
     <module>cloud-config</module>
+    <module>tika</module>
+    <module>jgit</module>
   </modules>
   <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -58,6 +60,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <version>${spring-boot.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>repackage</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>

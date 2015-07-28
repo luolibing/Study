@@ -6,6 +6,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/activiti" />
     <file type="web" url="file://$PROJECT_DIR$/springboot" />
+    <file type="web" url="file://$PROJECT_DIR$/tika" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
