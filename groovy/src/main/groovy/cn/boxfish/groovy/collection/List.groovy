@@ -94,5 +94,65 @@ class List {
         assert ['a', 'b', 'c', 'd', 'e'].findIndexOf {
             it in ['c', 'e', 'g']
         } == 2
+
+        assert ['a','b','c','d','e'].indexOf("c") == 2
+        assert ['a','b','c','d','e'].indexOf("z") == -1
+        assert ['a','b','c','d','e'].lastIndexOf('c') == 2
+
+        assert [1, 2, 3].every { it<5 }
+        assert ![1, 2, 3].every { it<3 }
+        assert ![1, 2, 3].any { it>3 }
+
+        println ([1,2,3,4,5,6,7,8,9,10].sum())
+        println (['a',1,2,3,'c'].sum())
+
+        println (['a',1,2,3,'c'].sum {
+            it == 'a'?20:it=='b'?21:it=='c'?23:it
+        })
+
+        assert ['a', 'b', 'c', 'd', 'e'].sum {
+            ((char)it) - ((char)'a')
+        } == 10
+        assert ['a', 'b', 'c'].sum() == "abc"
+        assert [['a', 'c', 'd'], ['z', 'y', 't']].sum() == ['a', 'c', 'd', 'z', 'y', 't']
+        assert [].sum(100) == 100
+        assert [1, 2, 3].sum(100) == 106
+
+        assert ([1, 2, 3].join('-')) == '1-2-3'
+        println ([1, 2, 3, 4, 5, 6, 7, 7, 8].inject('counting:'){ str, item ->
+            str + item
+        })
+        assert [1, 2, 3].inject(1) { str, item ->
+            str + item
+        } == 7
     }
+
+    @Test
+    public void sort() {
+        assert [1, 2, 3, 10,6].max() == 10
+        assert [2, 3, 1, 6, 10].min() == 1
+        println ([1, 2, 'a', 1 ].max())
+        def list1 = ['zbcd', 'y', '1234', 'zfd'];
+        assert list1.max{ it.size()} == 'zbcd'
+        assert list1.min { it.size()} == 'y'
+
+        def list2 = [1, 4, 2, 0]
+        Comparator mc = { a, b ->
+            a == b ? 0: (a< b? -1: 1)
+        }
+        assert list2.max(mc) == 4
+        assert list2.min(mc) == 0
+
+        Comparator mc1 = { a, b ->
+            a == b ? 0 : (Math.abs(a)<Math.abs(b) ? -1 : 1)
+        }
+        def list3 = [7, 4, 9, -6, -1, 11, 2, 3, -9, 5, -13]
+        assert list3.max(mc1) == -13
+        assert list3.min(mc1) == -1
+
+        assert list3.max { a, b ->
+            a.equals(b) ? 0 : Math.abs(a) < Math.abs(b) ? -1 : 1
+        } == -13
+    }
+
 }

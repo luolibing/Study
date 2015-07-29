@@ -1,7 +1,7 @@
 package cn.boxfish.tika;
 
 import cn.boxfish.tika.utils.FfmpegUtils;
-import com.beust.jcommander.internal.Maps;
+import com.google.common.collect.Maps;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
 import org.springframework.boot.SpringApplication;
