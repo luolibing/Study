@@ -1,13 +1,14 @@
 package cn.boxfish.multipart.datasource;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 /**
  * Created by LuoLiBing on 15/7/21.
  */
 @Component
-@ConfigurationProperties(locations = {"classpath:config/rule.properties"}, prefix = "db")
+@ConfigurationProperties(prefix = "db")
 public class Rule {
 
     String user;

@@ -155,4 +155,34 @@ class List {
         } == -13
     }
 
+    @Test
+    public void addOrRemove() {
+        def list = []
+        assert list.empty
+
+        list << 5
+        assert list == [5]
+
+        list << 7 << 'i' << false
+        assert list.size() == 4
+
+        list << ['m', 'n']
+        assert list.size() == 5
+
+        assert ([1, 2] << 3 << [4, 5]) == [1, 2, 3, [4, 5]]
+        assert ([1, 2, 3] << 4) == ([1, 2, 3].leftShift(4))
+
+        assert [1, 2] + 3 + [4, 5] == [1, 2, 3, 4, 5]
+    }
+
+    @Test
+    public void setOperations() {
+        assert 'a' in ['a', 'b', 'c']
+
+        assert [1, 2, 5, 4, 6, 10].count {
+            it % 2 == 0
+        } == 4
+
+
+    }
 }
