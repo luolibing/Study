@@ -155,6 +155,7 @@ class List {
         } == -13
     }
 
+<<<<<<< HEAD
     @Test
     public void addOrRemove() {
         def list = []
@@ -184,5 +185,93 @@ class List {
         } == 4
 
 
+=======
+
+    @Test
+    public void saveOrUpdate() {
+        assert ([] << 'abcd' << 'luolibing') == ['abcd', 'luolibing']
+        assert ([1, 2].plus(3) == [1, 2, 3])
+
+        def a = [1]
+        a += 2
+        a += 3
+        assert a == [1, 2, 3]
+        assert [1, *[2, 3]] == [1, 2, 3]
+
+        def b = [1, 2]
+        b.add(2, 3)
+        assert b == [1, 2, 3]
+
+        b.addAll(3, [4, 5])
+        assert b == [1, 2, 3, 4, 5]
+
+        def c = ['a', 'b', 'c']
+        c[4] = 'd'
+        assert c == ['a', 'b', 'c', null, 'd']
+
+        assert (['a', 'b', 'c'] - 'c') == ['a', 'b']
+        assert (['a', 'b', 'd', 'z', 'a', 'c'] - 'a' - 'b') == ['d', 'z', 'c']
+        assert (['a', 'b', 'd', 'z', 'a', 'c'] - ['a' , 'b']) == ['d', 'z', 'c']
+
+        def d = [1, 2, 3, 4, 5, 3, 2, 1]
+        assert (d -= 3) == [1, 2, 4, 5, 2, 1]
+        assert (d -= [2, 4]) == [1, 5, 1]
+
+        def e = [1, 2, 3, 4, 5, 3, 2, 1]
+        assert e.remove(5) == 3
+
+        def f= ['a','b','c','b','b']
+        assert !f.remove('e')
+        assert f.remove('a')
+
+        f.clear()
+        assert f == []
+    }
+
+    @Test
+    public void contain() {
+        assert 'a' in ['a', 'b', 'c']
+        assert ['a', 'b', 'c'].contains('a')
+
+        assert ['a', 'b', 'c', 'b', 'c', 'b', 'c'].count('b') == 3
+    }
+
+     @Test
+     public void setOptions() {
+         assert [1, 2, 4, 6, 8, 10, 12].intersect([1, 3, 12]) == [1, 12]
+         assert [1, 2, 3].disjoint([4, 5, 6])
+         assert ![1, 2, 3].disjoint([1, 4, 5])
+     }
+
+    @Test
+    public void sort1() {
+        println ([6, 3, 9, 2, 7, 1, 5].sort())
+        def list = ['abc', 'z', 'xyzuvw', 'Hello', '321']
+        println list.sort {
+            it.size()
+        }
+
+        def list2 = [7, 4, -6, -1, 11, 2, 3, -9, 5, -13]
+        println (list2.sort { a,b ->
+            a == b ? 0 :Math.abs(a) < Math.abs(b) ? -1 : 1
+        })
+
+        Comparator mc = { a, b ->
+            a == b ? 0 :Math.abs(a) < Math.abs(b) ? -1 : 1
+        }
+        // JDK8²ÅÖ§³Ö
+        //println list2.sort(mc)
+        def list3 = [6, -3, 9, 2, -7, 1, 5]
+        Collections.sort(list3)
+        println list3
+
+        Collections.sort(list3, mc)
+        println list3
+
+        assert [1, 2, 3] * 3 == [1, 2, 3, 1, 2, 3, 1, 2, 3]
+        assert [1, 2].multiply(2) == [1, 2, 1, 2]
+
+        assert Collections.nCopies(2, [1, 2]) == [[1, 2], [1, 2]]
+>>>>>>> ed20b496ef1e3f53114cc8144dbbf1ffc98c568a
     }
 }
