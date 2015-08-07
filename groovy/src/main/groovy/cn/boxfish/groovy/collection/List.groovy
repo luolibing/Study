@@ -155,7 +155,6 @@ class List {
         } == -13
     }
 
-<<<<<<< HEAD
     @Test
     public void addOrRemove() {
         def list = []
@@ -183,9 +182,7 @@ class List {
         assert [1, 2, 5, 4, 6, 10].count {
             it % 2 == 0
         } == 4
-
-
-=======
+    }
 
     @Test
     public void saveOrUpdate() {
@@ -259,7 +256,7 @@ class List {
         Comparator mc = { a, b ->
             a == b ? 0 :Math.abs(a) < Math.abs(b) ? -1 : 1
         }
-        // JDK8才支持
+        // JDK8锟斤拷支锟斤拷
         //println list2.sort(mc)
         def list3 = [6, -3, 9, 2, -7, 1, 5]
         Collections.sort(list3)
@@ -272,6 +269,5 @@ class List {
         assert [1, 2].multiply(2) == [1, 2, 1, 2]
 
         assert Collections.nCopies(2, [1, 2]) == [[1, 2], [1, 2]]
->>>>>>> ed20b496ef1e3f53114cc8144dbbf1ffc98c568a
     }
 }

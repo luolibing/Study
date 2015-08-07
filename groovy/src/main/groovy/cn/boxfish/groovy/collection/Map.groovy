@@ -63,4 +63,44 @@ class Map {
         assert map1.true == null
         assert map.get(true) == 'p'
     }
+
+    @Test
+    void iteratMap() {
+        def map = [
+                Bob: 33,
+                Tim: 54,
+                Liu: 28
+        ]
+        map.each { entry ->
+            println "name: ${entry.key},Age:${entry.value}"
+        }
+
+        map.eachWithIndex { entry, i ->
+            println "$i - Name：$entry.key , age: $entry.value"
+        }
+
+        map.each { key, value ->
+            println "name: ${key},Age:${value}"
+        }
+
+        map.eachWithIndex { key, value, i ->
+            println "$i - Name：$key , age: $value"
+        }
+    }
+
+    @Test
+    void manipulatMap() {
+        def defaults = [1: 'a', 2: 'b', 3: 'c', 4: 'd']
+        def overrides = [2: 'z', 5: 'x', 13: 'x']
+        def result = new LinkedHashMap<>(defaults)
+        result.put(15, 't')
+        result[17] = 'u'
+        result.putAll(overrides)
+        println result
+
+        assert defaults.get(1) == 'a'
+        defaults.clear()
+        assert defaults == [:]
+    }
+
 }

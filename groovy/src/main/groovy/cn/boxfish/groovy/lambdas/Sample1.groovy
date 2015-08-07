@@ -3,6 +3,9 @@ package cn.boxfish.groovy.lambdas
 import org.codehaus.groovy.runtime.typehandling.GroovyCastException
 import org.junit.Test
 
+import java.nio.file.Path
+import java.nio.file.Paths
+
 /**
  * Created by TIM on 2015/7/17.
  */
@@ -66,5 +69,18 @@ class Sample1 {
 
         assert ('cx' as char) == 'c'
         assert 'cx'.asType(char) == 'c'
+    }
+
+    @Test
+    void testFindIndex() {
+        println ([1, 5, 3].indexOf(5))
+        int[] arr = [1, 5, 3]
+        println arr.findIndexOf { it == 7}
+    }
+
+    @Test
+    void testPath() {
+        def path = Paths.get("/Users/boxfish")
+        println path.getFileName().toString()
     }
 }

@@ -1,4 +1,4 @@
-spring.profiles.active: test,development
+spring.profiles.active: test
 
 ---
 spring:
@@ -8,9 +8,13 @@ db:
   password: 12345
 
 ---
-
+server:
+  port: 9999
 spring:
  profiles: test
+ view:
+  prefix: /WEB-INF/jsp/
+  suffix: .jsp
 db:
   username: admin_test
   password: 12345_test

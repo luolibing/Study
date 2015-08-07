@@ -25,7 +25,7 @@
         <module name="activites" />
         <module name="cloud-config" />
         <module name="echarts" />
-        <module name="groovy" />
+        <module name="groovry" />
         <module name="jgit" />
         <module name="jpa" />
         <module name="shiro" />
@@ -34,11 +34,11 @@
         <module name="tika" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
+    <bytecodeTargetLevel>
       <module name="activites" target="1.5" />
       <module name="cloud-config" target="1.5" />
       <module name="echarts" target="1.5" />
-      <module name="groovy" target="1.5" />
+      <module name="groovry" target="1.5" />
       <module name="jgit" target="1.5" />
       <module name="jpa" target="1.5" />
       <module name="shiro" target="1.5" />
