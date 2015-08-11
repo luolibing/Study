@@ -6,6 +6,7 @@ import org.junit.Test
 
 import java.nio.file.FileVisitResult
 import java.nio.file.Files
+import java.nio.file.Paths
 
 /**
  * Created by LuoLiBing on 15/7/18.
@@ -204,4 +205,14 @@ class FileDemo1 implements Serializable {
 
     String name
     int age
+
+    @Test
+    void eachTest1() {
+        def list = []
+        Paths.get("/share/json/student").eachFileMatch (FileType.FILES, ~/.*\.json/) { f ->
+            list << f
+            println f.getAbsolutePath()
+        }
+        println list
+    }
 }

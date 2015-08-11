@@ -16,6 +16,7 @@
     <module>jgit</module>
     <module>jpa</module>
     <module>test</module>
+    <module>reactor</module>
   </modules>
   <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>

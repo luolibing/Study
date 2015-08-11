@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 @SpringBootApplication(exclude = {})
 @ComponentScan(value = "cn.boxfish")
 @RestController
-public class Application extends SpringBootServletInitializer {
+public class Application extends SpringBootServletInitializer  {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
