@@ -1,0 +1,509 @@
+# Created by https://www.gitignore.io
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Eclipse ###
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+
+### Java ###
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+### Scala ###
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+
+### SVN ###
+.svn/
+
+
+### 自定义 ###
+*.xlsx
+*.json
+.project
+jackrabbit/.lock
+jackrabbit/bootstrap.properties
+jackrabbit/indexing_configuration.xml
+jackrabbit/repository.xml
+jackrabbit/repository/datastore/79/ef/86/79ef86a27d9a0fa1ca314717659645c809090aaf
+jackrabbit/repository/datastore/8d/2a/52/8d2a524e40a0668a5897d905de4410c05ee70265
+jackrabbit/repository/datastore/a2/dc/0a/a2dc0abeea1114f2495b2608155d68d76001bf78
+jackrabbit/repository/datastore/a6/61/8a/a6618a606341e2bc28603d81c9b6d1be8f0996e3
+jackrabbit/repository/datastore/b9/a8/6c/b9a86ce3bce8874ec4df61705a0fec6c9cd945a5
+jackrabbit/repository/datastore/cc/04/0d/cc040d6301010313d7b46d4c4e1f24967f7eb6bd
+jackrabbit/repository/datastore/e3/7e/c6/e37ec653a651c031931dcf69aeaa71dc3e5b0b5c
+jackrabbit/repository/index/indexes_3
+jackrabbit/repository/index/_0/_0.cfs
+jackrabbit/repository/index/_0/cache.inSegmentParents
+jackrabbit/repository/index/_0/segments.gen
+jackrabbit/repository/index/_0/segments_1
+jackrabbit/repository/index/_0/segments_2
+jackrabbit/repository/index/_1/_0.cfs
+jackrabbit/repository/index/_1/cache.inSegmentParents
+jackrabbit/repository/index/_1/segments.gen
+jackrabbit/repository/index/_1/segments_1
+jackrabbit/repository/index/_1/segments_2
+jackrabbit/repository/meta/rootUUID
+jackrabbit/repository/namespaces/ns_idx.properties
+jackrabbit/repository/namespaces/ns_reg.properties
+jackrabbit/repository/nodetypes/custom_nodetypes.xml
+jackrabbit/version/db/db.lck
+jackrabbit/version/db/dbex.lck
+jackrabbit/version/db/service.properties
+jackrabbit/version/db/log/log.ctrl
+jackrabbit/version/db/log/log4.dat
+jackrabbit/version/db/log/logmirror.ctrl
+jackrabbit/version/db/seg0/c10.dat
+jackrabbit/version/db/seg0/c101.dat
+jackrabbit/version/db/seg0/c111.dat
+jackrabbit/version/db/seg0/c121.dat
+jackrabbit/version/db/seg0/c130.dat
+jackrabbit/version/db/seg0/c141.dat
+jackrabbit/version/db/seg0/c150.dat
+jackrabbit/version/db/seg0/c161.dat
+jackrabbit/version/db/seg0/c171.dat
+jackrabbit/version/db/seg0/c180.dat
+jackrabbit/version/db/seg0/c191.dat
+jackrabbit/version/db/seg0/c1a1.dat
+jackrabbit/version/db/seg0/c1b1.dat
+jackrabbit/version/db/seg0/c1c0.dat
+jackrabbit/version/db/seg0/c1d1.dat
+jackrabbit/version/db/seg0/c1e0.dat
+jackrabbit/version/db/seg0/c1f1.dat
+jackrabbit/version/db/seg0/c20.dat
+jackrabbit/version/db/seg0/c200.dat
+jackrabbit/version/db/seg0/c211.dat
+jackrabbit/version/db/seg0/c221.dat
+jackrabbit/version/db/seg0/c230.dat
+jackrabbit/version/db/seg0/c241.dat
+jackrabbit/version/db/seg0/c251.dat
+jackrabbit/version/db/seg0/c260.dat
+jackrabbit/version/db/seg0/c271.dat
+jackrabbit/version/db/seg0/c281.dat
+jackrabbit/version/db/seg0/c290.dat
+jackrabbit/version/db/seg0/c2a1.dat
+jackrabbit/version/db/seg0/c2b1.dat
+jackrabbit/version/db/seg0/c2c1.dat
+jackrabbit/version/db/seg0/c2d0.dat
+jackrabbit/version/db/seg0/c2e1.dat
+jackrabbit/version/db/seg0/c2f0.dat
+jackrabbit/version/db/seg0/c300.dat
+jackrabbit/version/db/seg0/c31.dat
+jackrabbit/version/db/seg0/c311.dat
+jackrabbit/version/db/seg0/c321.dat
+jackrabbit/version/db/seg0/c331.dat
+jackrabbit/version/db/seg0/c340.dat
+jackrabbit/version/db/seg0/c351.dat
+jackrabbit/version/db/seg0/c361.dat
+jackrabbit/version/db/seg0/c371.dat
+jackrabbit/version/db/seg0/c380.dat
+jackrabbit/version/db/seg0/c391.dat
+jackrabbit/version/db/seg0/c3a1.dat
+jackrabbit/version/db/seg0/c3b1.dat
+jackrabbit/version/db/seg0/c3c0.dat
+jackrabbit/version/db/seg0/c3d1.dat
+jackrabbit/version/db/seg0/c3e1.dat
+jackrabbit/version/db/seg0/c3f1.dat
+jackrabbit/version/db/seg0/c400.dat
+jackrabbit/version/db/seg0/c41.dat
+jackrabbit/version/db/seg0/c411.dat
+jackrabbit/version/db/seg0/c420.dat
+jackrabbit/version/db/seg0/c431.dat
+jackrabbit/version/db/seg0/c440.dat
+jackrabbit/version/db/seg0/c451.dat
+jackrabbit/version/db/seg0/c460.dat
+jackrabbit/version/db/seg0/c471.dat
+jackrabbit/version/db/seg0/c51.dat
+jackrabbit/version/db/seg0/c60.dat
+jackrabbit/version/db/seg0/c71.dat
+jackrabbit/version/db/seg0/c81.dat
+jackrabbit/version/db/seg0/c90.dat
+jackrabbit/version/db/seg0/ca1.dat
+jackrabbit/version/db/seg0/cb1.dat
+jackrabbit/version/db/seg0/cc0.dat
+jackrabbit/version/db/seg0/cd1.dat
+jackrabbit/version/db/seg0/ce1.dat
+jackrabbit/version/db/seg0/cf0.dat
+jackrabbit/workspaces/default/workspace.xml
+jackrabbit/workspaces/default/db/db.lck
+jackrabbit/workspaces/default/db/dbex.lck
+jackrabbit/workspaces/default/db/service.properties
+jackrabbit/workspaces/default/db/log/log.ctrl
+jackrabbit/workspaces/default/db/log/log4.dat
+jackrabbit/workspaces/default/db/log/logmirror.ctrl
+jackrabbit/workspaces/default/db/seg0/c10.dat
+jackrabbit/workspaces/default/db/seg0/c101.dat
+jackrabbit/workspaces/default/db/seg0/c111.dat
+jackrabbit/workspaces/default/db/seg0/c121.dat
+jackrabbit/workspaces/default/db/seg0/c130.dat
+jackrabbit/workspaces/default/db/seg0/c141.dat
+jackrabbit/workspaces/default/db/seg0/c150.dat
+jackrabbit/workspaces/default/db/seg0/c161.dat
+jackrabbit/workspaces/default/db/seg0/c171.dat
+jackrabbit/workspaces/default/db/seg0/c180.dat
+jackrabbit/workspaces/default/db/seg0/c191.dat
+jackrabbit/workspaces/default/db/seg0/c1a1.dat
+jackrabbit/workspaces/default/db/seg0/c1b1.dat
+jackrabbit/workspaces/default/db/seg0/c1c0.dat
+jackrabbit/workspaces/default/db/seg0/c1d1.dat
+jackrabbit/workspaces/default/db/seg0/c1e0.dat
+jackrabbit/workspaces/default/db/seg0/c1f1.dat
+jackrabbit/workspaces/default/db/seg0/c20.dat
+jackrabbit/workspaces/default/db/seg0/c200.dat
+jackrabbit/workspaces/default/db/seg0/c211.dat
+jackrabbit/workspaces/default/db/seg0/c221.dat
+jackrabbit/workspaces/default/db/seg0/c230.dat
+jackrabbit/workspaces/default/db/seg0/c241.dat
+jackrabbit/workspaces/default/db/seg0/c251.dat
+jackrabbit/workspaces/default/db/seg0/c260.dat
+jackrabbit/workspaces/default/db/seg0/c271.dat
+jackrabbit/workspaces/default/db/seg0/c281.dat
+jackrabbit/workspaces/default/db/seg0/c290.dat
+jackrabbit/workspaces/default/db/seg0/c2a1.dat
+jackrabbit/workspaces/default/db/seg0/c2b1.dat
+jackrabbit/workspaces/default/db/seg0/c2c1.dat
+jackrabbit/workspaces/default/db/seg0/c2d0.dat
+jackrabbit/workspaces/default/db/seg0/c2e1.dat
+jackrabbit/workspaces/default/db/seg0/c2f0.dat
+jackrabbit/workspaces/default/db/seg0/c300.dat
+jackrabbit/workspaces/default/db/seg0/c31.dat
+jackrabbit/workspaces/default/db/seg0/c311.dat
+jackrabbit/workspaces/default/db/seg0/c321.dat
+jackrabbit/workspaces/default/db/seg0/c331.dat
+jackrabbit/workspaces/default/db/seg0/c340.dat
+jackrabbit/workspaces/default/db/seg0/c351.dat
+jackrabbit/workspaces/default/db/seg0/c361.dat
+jackrabbit/workspaces/default/db/seg0/c371.dat
+jackrabbit/workspaces/default/db/seg0/c380.dat
+jackrabbit/workspaces/default/db/seg0/c391.dat
+jackrabbit/workspaces/default/db/seg0/c3a1.dat
+jackrabbit/workspaces/default/db/seg0/c3b1.dat
+jackrabbit/workspaces/default/db/seg0/c3c0.dat
+jackrabbit/workspaces/default/db/seg0/c3d1.dat
+jackrabbit/workspaces/default/db/seg0/c3e1.dat
+jackrabbit/workspaces/default/db/seg0/c3f1.dat
+jackrabbit/workspaces/default/db/seg0/c400.dat
+jackrabbit/workspaces/default/db/seg0/c41.dat
+jackrabbit/workspaces/default/db/seg0/c411.dat
+jackrabbit/workspaces/default/db/seg0/c420.dat
+jackrabbit/workspaces/default/db/seg0/c431.dat
+jackrabbit/workspaces/default/db/seg0/c440.dat
+jackrabbit/workspaces/default/db/seg0/c451.dat
+jackrabbit/workspaces/default/db/seg0/c460.dat
+jackrabbit/workspaces/default/db/seg0/c471.dat
+jackrabbit/workspaces/default/db/seg0/c51.dat
+jackrabbit/workspaces/default/db/seg0/c60.dat
+jackrabbit/workspaces/default/db/seg0/c71.dat
+jackrabbit/workspaces/default/db/seg0/c81.dat
+jackrabbit/workspaces/default/db/seg0/c90.dat
+jackrabbit/workspaces/default/db/seg0/ca1.dat
+jackrabbit/workspaces/default/db/seg0/cb1.dat
+jackrabbit/workspaces/default/db/seg0/cc0.dat
+jackrabbit/workspaces/default/db/seg0/cd1.dat
+jackrabbit/workspaces/default/db/seg0/ce1.dat
+jackrabbit/workspaces/default/db/seg0/cf0.dat
+jackrabbit/workspaces/default/index/indexes_f
+jackrabbit/workspaces/default/index/_b/_0.cfs
+jackrabbit/workspaces/default/index/_b/_0_2.del
+jackrabbit/workspaces/default/index/_b/cache.inSegmentParents
+jackrabbit/workspaces/default/index/_b/segments.gen
+jackrabbit/workspaces/default/index/_b/segments_4
+jackrabbit/workspaces/default/index/_c/_0.cfs
+jackrabbit/workspaces/default/index/_c/cache.inSegmentParents
+jackrabbit/workspaces/default/index/_c/segments.gen
+jackrabbit/workspaces/default/index/_c/segments_1
+jackrabbit/workspaces/default/index/_c/segments_2
+jackrabbit/workspaces/default/index/_d/_0.cfs
+jackrabbit/workspaces/default/index/_d/cache.inSegmentParents
+jackrabbit/workspaces/default/index/_d/segments.gen
+jackrabbit/workspaces/default/index/_d/segments_1
+jackrabbit/workspaces/default/index/_d/segments_2
+jackrabbit/workspaces/security/workspace.xml
+jackrabbit/workspaces/security/db/db.lck
+jackrabbit/workspaces/security/db/dbex.lck
+jackrabbit/workspaces/security/db/service.properties
+jackrabbit/workspaces/security/db/log/log.ctrl
+jackrabbit/workspaces/security/db/log/log4.dat
+jackrabbit/workspaces/security/db/log/logmirror.ctrl
+jackrabbit/workspaces/security/db/seg0/c10.dat
+jackrabbit/workspaces/security/db/seg0/c101.dat
+jackrabbit/workspaces/security/db/seg0/c111.dat
+jackrabbit/workspaces/security/db/seg0/c121.dat
+jackrabbit/workspaces/security/db/seg0/c130.dat
+jackrabbit/workspaces/security/db/seg0/c141.dat
+jackrabbit/workspaces/security/db/seg0/c150.dat
+jackrabbit/workspaces/security/db/seg0/c161.dat
+jackrabbit/workspaces/security/db/seg0/c171.dat
+jackrabbit/workspaces/security/db/seg0/c180.dat
+jackrabbit/workspaces/security/db/seg0/c191.dat
+jackrabbit/workspaces/security/db/seg0/c1a1.dat
+jackrabbit/workspaces/security/db/seg0/c1b1.dat
+jackrabbit/workspaces/security/db/seg0/c1c0.dat
+jackrabbit/workspaces/security/db/seg0/c1d1.dat
+jackrabbit/workspaces/security/db/seg0/c1e0.dat
+jackrabbit/workspaces/security/db/seg0/c1f1.dat
+jackrabbit/workspaces/security/db/seg0/c20.dat
+jackrabbit/workspaces/security/db/seg0/c200.dat
+jackrabbit/workspaces/security/db/seg0/c211.dat
+jackrabbit/workspaces/security/db/seg0/c221.dat
+jackrabbit/workspaces/security/db/seg0/c230.dat
+jackrabbit/workspaces/security/db/seg0/c241.dat
+jackrabbit/workspaces/security/db/seg0/c251.dat
+jackrabbit/workspaces/security/db/seg0/c260.dat
+jackrabbit/workspaces/security/db/seg0/c271.dat
+jackrabbit/workspaces/security/db/seg0/c281.dat
+jackrabbit/workspaces/security/db/seg0/c290.dat
+jackrabbit/workspaces/security/db/seg0/c2a1.dat
+jackrabbit/workspaces/security/db/seg0/c2b1.dat
+jackrabbit/workspaces/security/db/seg0/c2c1.dat
+jackrabbit/workspaces/security/db/seg0/c2d0.dat
+jackrabbit/workspaces/security/db/seg0/c2e1.dat
+jackrabbit/workspaces/security/db/seg0/c2f0.dat
+jackrabbit/workspaces/security/db/seg0/c300.dat
+jackrabbit/workspaces/security/db/seg0/c31.dat
+jackrabbit/workspaces/security/db/seg0/c311.dat
+jackrabbit/workspaces/security/db/seg0/c321.dat
+jackrabbit/workspaces/security/db/seg0/c331.dat
+jackrabbit/workspaces/security/db/seg0/c340.dat
+jackrabbit/workspaces/security/db/seg0/c351.dat
+jackrabbit/workspaces/security/db/seg0/c361.dat
+jackrabbit/workspaces/security/db/seg0/c371.dat
+jackrabbit/workspaces/security/db/seg0/c380.dat
+jackrabbit/workspaces/security/db/seg0/c391.dat
+jackrabbit/workspaces/security/db/seg0/c3a1.dat
+jackrabbit/workspaces/security/db/seg0/c3b1.dat
+jackrabbit/workspaces/security/db/seg0/c3c0.dat
+jackrabbit/workspaces/security/db/seg0/c3d1.dat
+jackrabbit/workspaces/security/db/seg0/c3e1.dat
+jackrabbit/workspaces/security/db/seg0/c3f1.dat
+jackrabbit/workspaces/security/db/seg0/c400.dat
+jackrabbit/workspaces/security/db/seg0/c41.dat
+jackrabbit/workspaces/security/db/seg0/c411.dat
+jackrabbit/workspaces/security/db/seg0/c420.dat
+jackrabbit/workspaces/security/db/seg0/c431.dat
+jackrabbit/workspaces/security/db/seg0/c440.dat
+jackrabbit/workspaces/security/db/seg0/c451.dat
+jackrabbit/workspaces/security/db/seg0/c460.dat
+jackrabbit/workspaces/security/db/seg0/c471.dat
+jackrabbit/workspaces/security/db/seg0/c51.dat
+jackrabbit/workspaces/security/db/seg0/c60.dat
+jackrabbit/workspaces/security/db/seg0/c71.dat
+jackrabbit/workspaces/security/db/seg0/c81.dat
+jackrabbit/workspaces/security/db/seg0/c90.dat
+jackrabbit/workspaces/security/db/seg0/ca1.dat
+jackrabbit/workspaces/security/db/seg0/cb1.dat
+jackrabbit/workspaces/security/db/seg0/cc0.dat
+jackrabbit/workspaces/security/db/seg0/cd1.dat
+jackrabbit/workspaces/security/db/seg0/ce1.dat
+jackrabbit/workspaces/security/db/seg0/cf0.dat
+jackrabbit/workspaces/security/index/indexes_4
+jackrabbit/workspaces/security/index/_0/_0.cfs
+jackrabbit/workspaces/security/index/_0/cache.inSegmentParents
+jackrabbit/workspaces/security/index/_0/segments.gen
+jackrabbit/workspaces/security/index/_0/segments_1
+jackrabbit/workspaces/security/index/_0/segments_2
+jackrabbit/workspaces/security/index/_1/_2.cfs
+jackrabbit/workspaces/security/index/_1/cache.inSegmentParents
+jackrabbit/workspaces/security/index/_1/segments.gen
+jackrabbit/workspaces/security/index/_1/segments_1
+jackrabbit/workspaces/security/index/_1/segments_4
+jackrabbit/workspaces/security/index/_2/_3.cfs
+jackrabbit/workspaces/security/index/_2/cache.inSegmentParents
+jackrabbit/workspaces/security/index/_2/segments.gen
+jackrabbit/workspaces/security/index/_2/segments_1
+jackrabbit/workspaces/security/index/_2/segments_5
