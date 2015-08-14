@@ -10,8 +10,8 @@ import static reactor.Environment.get;
 /**
  * Created by LuoLiBing on 15/8/10.
  */
-@EnableAutoConfiguration
-@ComponentScan(value = "cn.boxfish")
+//@EnableAutoConfiguration
+//@ComponentScan(value = "cn.boxfish")
 public class CommandLineRunnerTest implements CommandLineRunner {
 
     static {

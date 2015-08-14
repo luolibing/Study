@@ -1,11 +1,14 @@
-spring.profiles.active: test
+spring:
+  profiles:
+    active: development
 
 ---
 spring:
  profiles: development
 db:
-  username: admin
+  username: 罗立兵
   password: 12345
+  tables: a,b,c,d
 
 ---
 server:
