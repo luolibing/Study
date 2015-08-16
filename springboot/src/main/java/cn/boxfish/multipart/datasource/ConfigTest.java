@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 public class ConfigTest {
     String username;
     String password;
+    String[] tables;
 
     public String getUsername() {
         return username;
@@ -29,5 +30,13 @@ public class ConfigTest {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String[] getTables() {
+        return tables;
+    }
+
+    public void setTables(String[] tables) {
+        this.tables = tables;
     }
 }
