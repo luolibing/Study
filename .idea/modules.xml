@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/tika/tika.iml" filepath="$PROJECT_DIR$/tika/tika.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
   </component>
 </project>
