@@ -5,7 +5,7 @@ import cn.boxfish.handshake.MyHandshakeInterceptor;
 
 /**
  * Created by TIM on 2015/8/17.
- * websocketÅäÖÃ  Ò²¿ÉÒÔÊ¹ÓÃxml½øĞĞÅäÖÃ
+ * websocketé…ç½®  ä¹Ÿå¯ä»¥ä½¿ç”¨xmlè¿›è¡Œé…ç½®
  */
 @Configuration
 @EnableWebSocket
@@ -24,7 +24,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
     }
 
     /**
-     * ÅäÖÃwebsocket ÅäÖÃ, Ò²¿ÉÒÔ·Åµ½xmlÖĞÅäÖÃ
+     * é…ç½®websocket é…ç½®, ä¹Ÿå¯ä»¥æ”¾åˆ°xmlä¸­é…ç½®
      * @return
      */
     @Bean
