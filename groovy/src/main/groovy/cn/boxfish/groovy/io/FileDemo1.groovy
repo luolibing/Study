@@ -226,15 +226,7 @@ class FileDemo1 implements Serializable {
 
     @Test
     void fileMatch() {
-        def md5 = "0010a51126782074975643015e17c570"
-        def md5Path = getMd5PathByMd5WithExtension(md5)
-        def basePath = "/share/data/"
-        ['picture', 'audio', 'video'].each {
-            def parentPath = Paths.get(basePath + it + "/" + md5Path)
-            parentPath.eachFileMatch("/^("  + ").*$/") {
-                Files.exists()
-            }
-        }
+
     }
 
     /**
@@ -245,5 +237,12 @@ class FileDemo1 implements Serializable {
     public String getMd5PathByMd5WithExtension(String md5) {
         char[] chars = md5.toCharArray();
         return chars[0] + chars[1] + "/" + chars[2] + "/" //+ md5;
+    }
+
+
+    @Test
+    void testIni() {
+        def ini = Paths.get("")
+
     }
 }
