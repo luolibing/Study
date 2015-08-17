@@ -2,20 +2,24 @@ package cn.boxfish.config;
 
 import cn.boxfish.handler.MyHandler;
 import cn.boxfish.handshake.MyHandshakeInterceptor;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.socket.WebSocketHandler;
+import org.springframework.web.socket.config.annotation.EnableWebSocket;
+import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
+import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
+import org.springframework.web.socket.server.standard.ServletServerContainerFactoryBean;
 
 /**
  * Created by TIM on 2015/8/17.
- * websocketÅäÖÃ  Ò²¿ÉÒÔÊ¹ÓÃxml½øÐÐÅäÖÃ
+ * websocketï¿½ï¿½ï¿½ï¿½  Ò²ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½xmlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 @Configuration
 @EnableWebSocket
 public class WebSocketConfig implements WebSocketConfigurer {
 
-    @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(myHandler(), "/myHandler");
-        registry.addInterceptors(new MyHandshakeInterceptor());
-        registry.withSockJS();
+        registry.addHandler(myHandler(), "/myHandler").addInterceptors(new MyHandshakeInterceptor()).withSockJS();
     }
 
     @Bean
@@ -24,7 +28,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
     }
 
     /**
-     * ÅäÖÃwebsocket ÅäÖÃ, Ò²¿ÉÒÔ·Åµ½xmlÖÐÅäÖÃ
+     * ï¿½ï¿½ï¿½ï¿½websocket ï¿½ï¿½ï¿½ï¿½, Ò²ï¿½ï¿½ï¿½Ô·Åµï¿½xmlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      * @return
      */
     @Bean
