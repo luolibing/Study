@@ -14,7 +14,11 @@ import org.springframework.web.socket.server.standard.ServletServerContainerFact
 
 /**
  * Created by TIM on 2015/8/17.
+<<<<<<< HEAD
  * websocket
+=======
+ * websocket配置  也可以使用xml进行配置
+>>>>>>> 4860438266b03b4078769e517e128c6fb0e79800
  */
 @Configuration
 @EnableWebSocket
@@ -31,6 +35,10 @@ public class WebSocketConfig implements WebSocketConfigurer {
     }
 
     /**
+<<<<<<< HEAD
+=======
+     * 配置websocket 配置, 也可以放到xml中配置
+>>>>>>> 4860438266b03b4078769e517e128c6fb0e79800
      * @return
      */
     @Bean

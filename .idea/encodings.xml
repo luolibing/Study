@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tika" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/websocket/src/main/java/cn/boxfish/config/WebSocketConfig.java" charset="UTF-8" />
   </component>
 </project>
