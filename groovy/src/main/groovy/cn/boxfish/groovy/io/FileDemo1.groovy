@@ -1,7 +1,6 @@
 package cn.boxfish.groovy.io
 
 import groovy.io.FileType
-import org.apache.commons.io.FilenameUtils
 import org.junit.Before
 import org.junit.Test
 
