@@ -16,7 +16,7 @@
     <module>jgit</module>
     <module>jpa</module>
     <module>test</module>
-    <module>reactor</module>
+    <!--<module>reactor</module>-->
     <module>websocket</module>
   </modules>
   <name>Test Maven Webapp</name>
