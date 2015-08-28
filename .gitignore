@@ -60,3 +60,7 @@ websocket/target/classes/cn/boxfish/handshake/MyHandshakeHandler.class
 websocket/target/classes/cn/boxfish/handshake/MyHandshakeInterceptor.class
 websocket/target/classes/static/index.html
 websocket/websocket.iml
+.idea/libraries/Maven__junit_junit_4_11.xml
+.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_5.xml
+.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_3_11.xml
+.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_2_3_RELEASE.xml
