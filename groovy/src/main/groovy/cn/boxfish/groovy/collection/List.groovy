@@ -95,4 +95,13 @@ class List {
             it in ['c', 'e', 'g']
         } == 2
     }
+
+    @Test
+    void doWhileTest() {
+        boolean bk = false
+        while({
+            println "aaa"
+            bk
+        }());
+    }
 }
