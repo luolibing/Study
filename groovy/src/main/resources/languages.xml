@@ -1,0 +1,8 @@
+<languages xmlns:computer="Computer" xmlns:natural="Natural">
+    <language name="c++">
+        <author>Stroustrup</author>
+    </language>
+    <language name="java">
+        <author>Gosling</author>
+    </language>
+</languages>
