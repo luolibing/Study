@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ImportResource;
  * Created by TIM on 2015/8/17.
  */
 @SpringBootApplication
-//@ImportResource("classpath*:META-INF/spring.xml")
+@ImportResource("classpath*:META-INF/spring.xml")
 public class Application {
 
     public static void main(String[] args) {

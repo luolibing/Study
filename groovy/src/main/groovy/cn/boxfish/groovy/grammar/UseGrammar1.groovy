@@ -10,14 +10,16 @@ class UseGrammar1 {
     @Test
     public void useTest1() {
         Entity entity = new Entity();
-        use(UseGrammar){
-            println entity.hello
-        }
+        entity.getHello()
     }
 
-    class Entity {
+    class Entity implements GroovyInterceptable {
         String getHello() {
             return "hello entity"
+        }
+
+        Object invokeMethod(String name, Object args) {
+            println "invoke $name $args"
         }
     }
 
