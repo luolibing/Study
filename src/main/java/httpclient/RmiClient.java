@@ -32,7 +32,7 @@ public class RmiClient {
                     System.out.println("Response content length: " + entity.getContentLength());
                     String md5 = DigestUtils.md5Hex(entity.getContent());
                     System.out.println(md5);
-                    Files.copy(entity.getContent(), Paths.get("/Users/boxfish/Downloads/download/leaf.jpg"));
+                    Files.copy(entity.getContent(), Paths.get("/Users/tim/Downloads/download/leaf.jpg"));
                 }
             } finally {
                 response.close();

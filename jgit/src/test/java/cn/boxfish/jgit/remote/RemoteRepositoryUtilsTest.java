@@ -1,7 +1,7 @@
-package cn.boxfish.jgit.remote;
+package cn.tim.jgit.remote;
 
-import cn.boxfish.jgit.test.file.FileUtils;
-import cn.boxfish.jgit.test.remote.RemoteRepositoryUtils;
+import cn.tim.jgit.test.file.FileUtils;
+import cn.tim.jgit.test.remote.RemoteRepositoryUtils;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.junit.Test;
@@ -14,7 +14,7 @@ import java.nio.file.Paths;
  */
 public class RemoteRepositoryUtilsTest {
 
-    private String localPath = "/Users/boxfish/Downloads/gitrep";
+    private String localPath = "/Users/tim/Downloads/gitrep";
 
     @Test
     public void cloneTest() throws GitAPIException {

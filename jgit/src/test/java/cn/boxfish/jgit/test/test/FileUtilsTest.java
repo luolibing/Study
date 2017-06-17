@@ -1,7 +1,7 @@
-package cn.boxfish.jgit.test.test;
+package cn.tim.jgit.test.test;
 
-import cn.boxfish.jgit.test.file.FileUtils;
-import cn.boxfish.jgit.test.helper.RepositoryHelper;
+import cn.tim.jgit.test.file.FileUtils;
+import cn.tim.jgit.test.helper.RepositoryHelper;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Repository;
@@ -19,7 +19,7 @@ public class FileUtilsTest {
 
     private Repository repository;
 
-    private final String repPath = "/Users/boxfish/Documents/jgit_repository";
+    private final String repPath = "/Users/tim/Documents/jgit_repository";
 
     @Before
     public void createRepository() throws IOException {
@@ -29,7 +29,7 @@ public class FileUtilsTest {
 
     @Test
     public void addFileAndDeleteTest() throws GitAPIException, IOException {
-        Git git = FileUtils.addFile(repPath, cn.boxfish.jgit.test.utils.FileUtils.getClassPathFile("jgitres/1.txt"));
+        Git git = FileUtils.addFile(repPath, cn.tim.jgit.test.utils.FileUtils.getClassPathFile("jgitres/1.txt"));
         FileUtils.commit(git, "提交测试，1.txt");
         FileUtils.deleteFile(new File(repPath,"1.txt"));
     }
@@ -37,7 +37,7 @@ public class FileUtilsTest {
 
     @Test
     public void addFileTest() throws GitAPIException, IOException {
-        Git git = FileUtils.addFile(repPath, cn.boxfish.jgit.test.utils.FileUtils.getClassPathFile("jgitres/2.txt"));
+        Git git = FileUtils.addFile(repPath, cn.tim.jgit.test.utils.FileUtils.getClassPathFile("jgitres/2.txt"));
         FileUtils.commit(git, "测试提交，2.txt");
         //FileUtils.deleteFile(new File(repPath,"2.txt"));
     }

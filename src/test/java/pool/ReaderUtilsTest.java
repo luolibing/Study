@@ -20,7 +20,7 @@ public class ReaderUtilsTest {
         ReaderUtils instance = ReaderUtils.getInstance();
         String str = null;
         try {
-            str = instance.readToString(Files.newBufferedReader(Paths.get("/Users/boxfish/ssh_spider.sh"), Charset.defaultCharset()));
+            str = instance.readToString(Files.newBufferedReader(Paths.get("/Users/tim/ssh_spider.sh"), Charset.defaultCharset()));
         } catch (Exception e) {
             e.printStackTrace();
         }

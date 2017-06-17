@@ -1,4 +1,4 @@
-package cn.boxfish.jgit.test.utils;
+package cn.tim.jgit.test.utils;
 
 import java.io.File;
 
